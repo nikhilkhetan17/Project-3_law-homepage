@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Red+Rose:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  background: #2b2922;
+}
+a {
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------------- */
+.logo {
+  margin-left: 10rem;
+}
+nav {
+  display: flex;
+  /* background-color: #2b2922; */
+  justify-content: space-between;
+  align-items: center;
+  /* width: 90vw; */
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.home {
+  margin-left: 45rem;
+}
+.home a {
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  color: #818181;
+  font-family: "Red Rose", cursive;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.home a:first-child {
+  color: #ffffff;
+}
+
+.get-started {
+  margin-right: 5rem;
+  color: #9f8e36;
+  background-color: #2b2922;
+  padding: 1rem 2rem;
+  border: 1px solid #9f8e36;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/* -------------------------------------------------------------------------- */
+
+.top-section {
+  display: flex;
+  background-color: #2b2922;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.top-section h1 {
+  color: #ffffff;
+  font-size: 7rem;
+  width: 45%;
+  font-family: "Red Rose", cursive;
+  font-weight: 600;
+}
+
+.top-section p {
+  color: #838383;
+  width: 27%;
+  font-size: 2rem;
+  font-weight: 300;
+  align-self: center;
+  margin-right: 15rem;
+  text-align: justify;
+}
+
+section .big-image {
+  object-fit: cover;
+  object-position: center;
+  height: 40rem;
+  width: 100%;
+}
+
+/* ----------------------------------------------------------- */
+
+.bottom-both {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  font-size: 1.8rem;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 1rem 1.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.fa-angle-left {
+  color: #877a34;
+  border: 1px solid #877a34;
+}
+
+.bottom2 {
+  display: flex;
+  background-color: #a08f36;
+  height: 7rem;
+  width: 7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom1 {
+  display: flex;
+  background-color: #39372d;
+  height: 7rem;
+  width: 7rem;
+  justify-content: center;
+  align-items: center;
+}
